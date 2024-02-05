@@ -14,7 +14,20 @@ a {
   text-decoration: none;
 }
 
-.header-link {
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-part {
+  color: #2e2f42;
+}
+
+.nav-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -33,19 +46,6 @@ a {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-}
-.header-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-part-header {
-  color: #2e2f42;
-  line-height: 1.17;
 }
 
 .section.hero {
