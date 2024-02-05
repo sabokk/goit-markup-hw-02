@@ -89,7 +89,7 @@ a {
 }
 
 .section.section-team {
-  background: #ffffff;
+  background: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
@@ -98,6 +98,9 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.team-item {
+  background-color: #ffffff;
 }
 
 .team-name {
