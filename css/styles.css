@@ -34,11 +34,11 @@ a {
 .address-link:focus {
   color: #404bbf;
 }
-.logo {
+.header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -65,6 +65,11 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 .section.section-benefits {
   background-color: #ffffff;
@@ -84,7 +89,7 @@ a {
 }
 
 .section.section-team {
-  background: #f4f4fd;
+  background: #ffffff;
 }
 .team-title {
   font-size: 36px;
@@ -140,7 +145,15 @@ a {
 .footer {
   background-color: #2e2f42;
 }
-
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 .logo-part-footer {
   color: #f4f4fd;
   line-height: 1.17;
